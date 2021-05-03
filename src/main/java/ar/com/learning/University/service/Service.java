@@ -1,4 +1,41 @@
 package ar.com.learning.University.service;
 
-public interface  Service {
+import java.util.List;
+
+public interface  Service<T,E> {
+    /**
+     * @param dto
+     * @return
+     */
+    T createNew(T dto);
+
+    /**
+     * @return
+     */
+    List<T> getAll();
+
+    /**
+     * @param id
+     * @return
+     */
+    T getById(Long id);
+
+    /**
+     * @param dto
+     * @param id
+     * @return
+     */
+    T update(T dto, Long id);
+
+    /**
+     * @param id
+     */
+    void remove(Long id);
+
+    /**
+     * @param entity
+     * @param dto
+     */
+    void mergeData(E entity, T dto);
+
 }
