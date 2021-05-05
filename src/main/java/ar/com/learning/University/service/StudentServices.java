@@ -1,4 +1,4 @@
 package ar.com.learning.University.service;
 
-public class SubjectRepository {
+public class StudentServices {
 }
