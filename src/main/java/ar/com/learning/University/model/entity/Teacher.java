@@ -28,7 +28,7 @@ public class Teacher {
         @JoinTable(name = "docente_x_curso", joinColumns = @JoinColumn(name = "teacher_id"), inverseJoinColumns = @JoinColumn(name = "subject_id"))
         private List<Subject> cursosQueDicta;
         @OneToOne(mappedBy = "teacher")
-        private Admin admin;
+        private AdminPlace admin;
 
 
     }

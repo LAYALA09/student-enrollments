@@ -5,6 +5,7 @@ import lombok.Setter;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -29,8 +30,8 @@ public class User {
     private Student student;
 
     @OneToOne
-    @JoinColumn(name = "teacher_id", referencedColumnName = "teacher_id")
-    private Teacher teacher;
+    @JoinColumn(name = "adminPlace_id", referencedColumnName = "adminPlace_id")
+    private AdminPlace.admin;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     @LazyCollection(LazyCollectionOption.FALSE)
