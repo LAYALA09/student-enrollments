@@ -1,4 +1,4 @@
-package ar.com.learning.University.model.entity;
+package ar.com.learning.University.Entity;
 
 import lombok.Getter;
 import lombok.Setter;

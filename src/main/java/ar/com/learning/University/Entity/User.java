@@ -1,5 +1,7 @@
-package ar.com.learning.University.model.entity;
+package ar.com.learning.University.Entity;
 
+import ar.com.learning.University.Entity.Registration;
+import ar.com.learning.University.Entity.Student;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.LazyCollection;

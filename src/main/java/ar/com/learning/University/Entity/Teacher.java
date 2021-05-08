@@ -1,5 +1,6 @@
-package ar.com.learning.University.model.entity;
+package ar.com.learning.University.Entity;
 
+import ar.com.learning.University.Entity.Subject;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

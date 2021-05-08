@@ -1,6 +1,6 @@
 package ar.com.learning.University.repository;
 
-import ar.com.learning.University.model.entity.Category;
+import ar.com.learning.University.Entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
 package ar.com.learning.University.controller;
 
-import ar.com.learning.University.model.entity.Category;
+import ar.com.learning.University.Entity.Category;
 import ar.com.learning.University.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
