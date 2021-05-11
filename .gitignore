@@ -33,4 +33,4 @@ build/
 .vscode/
 .idea
 .target
-.src/main/resource/applications.properties
+src/main/resources/application.properties
